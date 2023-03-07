@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: rosybrown;
+    color: white; 
+}
+header ul{
+    display: flex;
+    justify-content: flex-start;
+}
+header ul li{
+    list-style: none;
+    padding: 20px;
+    font-size: 20px; 
+}
+.head1 p{
+    font-family: 'Teko', Arial;
+    font-size: 70px;
+}
+.head1 hr{
+    height: 4px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color:black;
+}
+#time{
+    margin-top: 0px;
+}
+.head2 ul{
+    display: flex;
+    justify-content: flex-start;
+}
+.head2 ul li span{
+    margin-left: 100px;
+}
+.head2 ul li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+    padding: 35px;
+    font-size: 20px;
+}
+.head2 hr{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.container{
+    padding: 40px;
+    margin-left: 100px;
+    /* margin-right: 100px; */
+}
+.container h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container img{
+    padding: 30px;
+}
+.container p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Arial', serif;
+    font-size: 15px;
+    /* margin-right: 300px; */
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 50px;
+    font-size: 25px;
+    padding: 20px;
+}
+
+    
